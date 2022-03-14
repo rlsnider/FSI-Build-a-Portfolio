@@ -1,0 +1,23 @@
+body {
+    background-size:100%;
+    background-image:linear-gradient(lightblue,navy)
+}
+    h1 { /*set the color of headers (1) to red with black shadow*/
+        color:red;
+        text-align:center;
+        text-shadow:2px 2px 5px black;
+    }
+    img {
+        border:inset 20px brown;/*put a picture frame border around picture*/
+        outline:solid 2px black;
+        size:15%;/*shrink size of picture*/
+        display:block;/*center picture*/
+        margin-left:auto;
+        margin-right:auto;
+    }
+    h3, p, ul{/*change text to white to show up next to navy background*/
+        color:white;
+    }
+.special {/*keep first paragraph black */
+    color:black;
+}
